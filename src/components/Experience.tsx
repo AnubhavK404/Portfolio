@@ -25,7 +25,7 @@ const EDUCATION = [
   },
   {
     year: "2019 - 2022",
-    role: "CSE Diploma",
+    role: "Computer Science & Engineering",
     company: "DIT University, Dehradun",
     description: "Foundational studies in Computer Science and Engineering with a focus on web technologies and software development."
   }
