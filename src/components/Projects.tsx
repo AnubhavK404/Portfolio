@@ -124,20 +124,19 @@ export function Projects() {
       <div ref={container}>
         <FeaturedProject />
 
-        <div className="mb-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <p className="font-mono text-xs uppercase tracking-widest text-secondary">
             // github repositories
           </p>
-          <div className="filter-bar inline-flex flex-wrap gap-1 self-start">
+          <div className="filter-bar" role="tablist" aria-label="Filter repositories">
             {PROJECT_CATEGORIES.map((category) => (
               <button
                 key={category}
+                type="button"
                 onClick={() => setActiveCategory(category)}
                 className={cn(
-                  "rounded-full px-4 py-2 text-[10px] font-semibold uppercase tracking-widest transition-all sm:text-xs",
-                  activeCategory === category
-                    ? "neu-badge-active bg-surface-raised"
-                    : "text-secondary hover:text-foreground"
+                  "filter-chip",
+                  activeCategory === category && "filter-chip-active"
                 )}
               >
                 {category}
