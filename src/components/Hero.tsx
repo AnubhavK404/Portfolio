@@ -71,7 +71,7 @@ export function Hero() {
         </h1>
 
         <p className="hero-role mb-3 max-w-xl text-lg text-foreground sm:text-xl md:text-2xl">
-          Full Stack Developer & SaaS Founder
+          {PROFILE.title}
         </p>
 
         <p
@@ -83,24 +83,17 @@ export function Hero() {
           {PROFILE.location}
         </p>
 
-        <div
+        <p
           ref={statsRef}
-          className="mb-10 grid w-full max-w-lg grid-cols-3 gap-3"
+          className="hero-figures mb-10 flex flex-wrap items-baseline justify-center text-sm sm:text-base"
         >
           {STATS.map((stat) => (
-            <div
-              key={stat.label}
-              className="stat-card neu-inset-sm px-2 py-4 sm:px-4 sm:py-5"
-            >
-              <p className="text-xl font-semibold tracking-tight sm:text-2xl">
-                {stat.value}
-              </p>
-              <p className="mt-1 font-mono text-[10px] uppercase tracking-wider text-secondary">
-                {stat.label}
-              </p>
-            </div>
+            <span key={stat.label} className="hero-figure">
+              <span className="font-medium text-foreground">{stat.value}</span>
+              <span className="text-secondary">{stat.label}</span>
+            </span>
           ))}
-        </div>
+        </p>
 
         <div
           ref={ctaRef}

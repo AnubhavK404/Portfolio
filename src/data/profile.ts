@@ -116,16 +116,6 @@ export const FEATURED_PROJECTS = [
     tags: ["Shopify", "B2B", "Content Strategy", "Exports"],
   },
   {
-    label: "Featured Shopify",
-    title: "Devbhoomi Ek Yatra",
-    description:
-      "Shopify storefront for Devbhoomi Ek Yatra — Garhwal tourism, scooter rentals in Mussoorie, and cultural heritage content. Built for bookings, brand presence, and traveler-facing messaging across the Uttarakhand travel experience.",
-    href: "https://devbhoomiekyatra.netlify.app",
-    variant: "ghost" as const,
-    cta: "Visit Devbhoomi Ek Yatra",
-    tags: ["Shopify", "Tourism", "Bookings", "Brand"],
-  },
-  {
     label: "Featured Security",
     title: "SpectreScan",
     description:
@@ -154,15 +144,6 @@ export const MANUAL_PROJECTS = [
     topics: ["shopify", "technical", "portfolio"],
     html_url: "https://github.com/AnubhavK404",
     homepage: "https://basavaorganics.com",
-  },
-  {
-    id: 999994,
-    name: "Devbhoomi Ek Yatra",
-    description:
-      "Shopify storefront for Devbhoomi Ek Yatra — Garhwal tourism, scooter rentals in Mussoorie, and cultural heritage content. Built for bookings, brand presence, and traveler-facing messaging across the Uttarakhand travel experience.",
-    topics: ["shopify", "technical", "portfolio"],
-    html_url: "https://github.com/AnubhavK404",
-    homepage: "https://devbhoomiekyatra.netlify.app",
   },
   {
     id: 999996,

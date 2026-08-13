@@ -17,7 +17,7 @@ const firaCode = Fira_Code({
 export const metadata: Metadata = {
   title: "Anubhav Brahmania | Full Stack Developer & SaaS Founder",
   description:
-    "Portfolio of Anubhav Brahmania — full stack developer, independent SaaS founder, and creator of Clinnk. 4+ years in web design, WordPress, Shopify, and custom apps.",
+    "Portfolio of Anubhav Brahmania — full stack developer, independent SaaS developer, and creator of Clinnk. 4+ years in web design, WordPress, Shopify, and custom apps.",
 };
 
 export default function RootLayout({
